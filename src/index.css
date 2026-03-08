@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-surface: #121212;
+  --color-primary: #a855f7;
+  --color-secondary: #3b82f6;
+  --color-accent: #ec4899;
+
+  --font-sans: Inter, sans-serif;
+
+  --shadow-neon:
+    0 0 10px rgba(168, 85, 247, 0.5), 0 0 20px rgba(168, 85, 247, 0.3);
+  --shadow-neon-blue:
+    0 0 10px rgba(59, 130, 246, 0.5), 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(168, 85, 247, 0.8);
+  }
+}
+
+body {
+  background-color: var(--color-background);
+  color: white;
+  font-family: monospace;
+}
