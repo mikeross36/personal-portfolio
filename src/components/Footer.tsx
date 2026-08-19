@@ -61,7 +61,7 @@ const Footer = ({
         </div>
 
         <Link
-          to="https://vladimir-monarov-portfolio.netlify.app/"
+          to="https://vladimir-monarov.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-8 pt-8 border-t border-white/5 text-center capitalize"
